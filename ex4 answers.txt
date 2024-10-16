@@ -1,0 +1,12 @@
+ex4 answers
+
+1a) yes git checkout -b feature-branch
+6a) rebase moves the commits of the branch to another one the main branch is the base here
+6c)the commits are linear and the last two commit have their order switched
+6d)the difference is that merging will create a new commit merging the two. Here, the commits of one branch are moved to the other.
+8ei)there are two branches and working tree is clean
+9a)it is linear
+9b)the commits from main are first than there are the commits of feature-branch
+9c)when merging the log graph shows two parallel branches that are joined by a commit
+11b)squashing uses the commit but meld into previous commit
+11d)Starting an interactive rebase, changing the pick to edit for the commit to modify, saving and closing the editor, making changes to the files or the commit message, then amending the commit using git commit --amend
